@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <soapenv:Body>
+         <ns1:ChangeMsisdn soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="urn:INSS">
+            <clientId xsi:type="xsd:string">SIEBEL</clientId>
+            <oldMsisdn xsi:type="xsd:string">OLDMSISDN_INPUT</oldMsisdn>
+            <newMsisdn xsi:type="xsd:string">NEWMSISDN_INPUT</newMsisdn>
+            <IMSI xsi:type="xsd:string" xsi:nil="true"/>
+            <reason xsi:type="xsd:string" xsi:nil="true"/>
+         </ns1:ChangeMsisdn>
+      </soapenv:Body>
+   </soapenv:Envelope>
